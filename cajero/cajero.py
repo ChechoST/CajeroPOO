@@ -25,7 +25,7 @@ class Cajero:
             print("Retiro realizado correctamente.")
     def menu(self):
         while True:
-            
+
             print("\n--- CAJERO AUTOMATICO---")
             print("1. Consultar saldo")
             print("2. Depositar")
@@ -47,6 +47,6 @@ class Cajero:
                 print("Opción inválida.")
             
     #Crear objeto
-    cliente = Cajero("Juan Pérez", 1000)
+cliente =Cajero("Juan Pérez", 1000)
     #ejecutar programa
-    cliente.mostrar_menu()
+cliente.menu()
