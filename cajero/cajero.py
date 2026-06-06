@@ -1,4 +1,4 @@
-class Cajero:
+class Bancolombia:
     def __init__(self, titular, saldo_inicial): 
         self.titular = titular 
         self.saldo = saldo_inicial
@@ -47,6 +47,6 @@ class Cajero:
                 print("Opción inválida.")
             
     #Crear objeto
-cliente =Cajero("Juan Pérez", 1000)
+cliente =Bancolombia("Juan Pérez", 1000)
     #ejecutar programa
 cliente.menu()
